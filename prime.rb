@@ -1,6 +1,6 @@
 def prime?(num)
  arr = (2...num).to_a
- condition = arr.each{|x| num % x == 0}
+ condition = arr.each{|x| x % num == 0}
   if condition 
     return true
   else 
