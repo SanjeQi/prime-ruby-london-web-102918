@@ -1,10 +1,9 @@
 def prime?(num)
   if num >= 2
-    arr = (2...num).to_a 
-    arr.each do |x|
+    (2...num).all? do |x|
       num % x != 0
-  	else
-    	return false
-		end
+    end
+  else
+    return false
   end
 end
