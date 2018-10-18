@@ -4,4 +4,6 @@ def prime?(num)
     arr.each{|x| num % x != 0}
   else
     return false
+  end
+end  
  
