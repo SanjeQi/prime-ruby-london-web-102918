@@ -1,8 +1,9 @@
 def prime?(num)
-  if num >= 2
-      num % x != 0
+ for (i = 2; i < num; i+= 1)
+    if num % i == 0
+      false
+    else
+      true
     end
-  else
-    return false
   end
-end
+end  
