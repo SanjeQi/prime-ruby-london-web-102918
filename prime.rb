@@ -3,8 +3,8 @@ def prime?(num)
     arr = (2...num).to_a 
     arr.each do |x|
       num % x != 0
-  else
-    return false
+  	else
+    	return false
+		end
   end
-end  
- 
+end
